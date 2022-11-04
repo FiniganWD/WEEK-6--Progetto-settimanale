@@ -1,0 +1,48 @@
+h1,
+h2,
+h5,
+p{font-weight: lighter; color:#000;}
+h1{font-size: 52px;}
+h2{font-size: 30px;}
+h5{font-size: 28px;font-weight: normal;}
+@media (min-width: 768px) {
+  h1{font-size: 60px;}
+}
+.navbar-nav i,
+.review i,
+.navbar-nav a{color:red;}
+.navbar-nav i,
+.review i{font-size: 22px;}
+
+.navbar,
+.btn.btn-primary{
+    background-image: linear-gradient(to bottom right, #712cf9, #450eb5);
+}
+.hero{
+    @include background-cover ("/img/pexels-aleksandar-pasaric-325185.jpg");
+}
+.focus{
+    background: rgb(245,245,245);
+    opacity: 1;
+}
+.focus i{
+    font-size: 30px;
+}
+.partners img{
+    padding: 20px 150px;
+}
+@media (min-width: 768px) {
+    .partners img{
+        padding: 20px 50px;
+    }
+}
+.review img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    background-image: linear-gradient(to bottom right, #712cf9, #450eb5);
+    h2, p{
+        color:#fff;
+    }
+}

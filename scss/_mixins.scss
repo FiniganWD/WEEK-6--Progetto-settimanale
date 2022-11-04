@@ -1,0 +1,7 @@
+@mixin background-cover($img_url) {
+    background: url($img_url) no-repeat center left;
+    height: 50vh;
+    display: flex;
+    padding: 80px 0;
+}
+
